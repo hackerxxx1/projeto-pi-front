@@ -36,7 +36,7 @@ const Graficos = () => {
   }
      function data(index) {
 
-       apiDeputados.get("/deputados/" + params.id +"/despesas?&mes="+index+"&ano=2019&itens=150").then((pega) => {
+       apiDeputados.get("/deputados/" + params.id +"/despesas?&mes="+index+"&ano=2022&itens=150").then((pega) => {
         const data = pega.data.dados
       
       setGrafico(data)
